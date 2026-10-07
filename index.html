@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="약물역학과 의학 연구를 위한 검색, 문헌 탐색, 분석 도구 모음">
+    <meta name="theme-color" content="#f4f1ea">
+    <meta property="og:title" content="PEPV Research Tools">
+    <meta property="og:description" content="연구의 반복 작업을 줄이는 작고 실용적인 도구들">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://why5682.me/">
+    <title>PEPV Research Tools</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 이동</a>
+
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="PEPV Research Tools 홈">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span>PEPV Research Tools</span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <a href="#tools">도구</a>
+        <a href="#open-source">오픈소스</a>
+        <a class="nav-github" href="https://github.com/why5682">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow"><span></span> Pharmacoepidemiology utility lab</div>
+        <h1 id="hero-title">연구의 반복 작업을<br><em>더 짧고 명확하게.</em></h1>
+        <p class="hero-copy">
+          약물역학과 의학 연구에서 자주 만나는 코드 검색, 문헌 탐색, 결과 정리를
+          작고 실용적인 웹 도구로 만듭니다.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#tools">도구 살펴보기 <span aria-hidden="true">↓</span></a>
+          <a class="button button-quiet" href="https://github.com/why5682">GitHub 프로필 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note" aria-label="운영 원칙">
+          <span>Research-first</span>
+          <span>Reproducible</span>
+          <span>Privacy-aware</span>
+        </div>
+      </section>
+
+      <section class="section" id="tools" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Public tools</p>
+            <h2 id="tools-title">바로 쓰는 연구 도구</h2>
+          </div>
+          <p>운영 데이터와 소스 코드는 분리하고, 필요한 기능만 안전하게 공개합니다.</p>
+        </div>
+
+        <div class="tool-grid">
+          <article class="tool-card tool-card-featured">
+            <div class="card-topline">
+              <span class="card-number">01</span>
+              <span class="status status-soon"><i></i> 연결 준비 중</span>
+            </div>
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img">
+                <path d="M13 8h22v32H13zM18 15h12M18 22h12M18 29h7"/>
+                <circle cx="32.5" cy="31.5" r="5.5"/><path d="m36.5 35.5 4 4"/>
+              </svg>
+            </div>
+            <h3>건강보험 연구 코드 검색</h3>
+            <p>약제 주성분·ATC, 수가, 치료재료와 KCD 질병코드를 한곳에서 탐색하고 연구용 목록으로 내려받습니다.</p>
+            <ul class="tag-list" aria-label="주요 기능">
+              <li>Drug &amp; ATC</li><li>수가코드</li><li>KCD</li><li>Excel export</li>
+            </ul>
+            <a class="card-link" href="https://drug.why5682.me">서비스 열기 <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="tool-card">
+            <div class="card-topline">
+              <span class="card-number">02</span>
+              <span class="status"><i></i> Open source</span>
+            </div>
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img">
+                <path d="M8 36V22M17 36V14M26 36V26M35 36V9M6 39h36"/>
+              </svg>
+            </div>
+            <h3>PubMed Research Trends</h3>
+            <p>PubMed 검색 결과에서 핵심 단어와 바이그램을 집계하고 연구 주제의 흐름을 빠르게 조망합니다.</p>
+            <ul class="tag-list" aria-label="주요 기술">
+              <li>PubMed</li><li>Python</li><li>Visualization</li>
+            </ul>
+            <a class="card-link" href="https://github.com/why5682/pubmedtrends">코드 보기 <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="tool-card">
+            <div class="card-topline">
+              <span class="card-number">03</span>
+              <span class="status"><i></i> Open source</span>
+            </div>
+            <div class="tool-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="img">
+                <path d="M11 10h26v28H11zM17 17h14M17 23h14M17 29h8"/>
+                <path d="m30 32 3 3 6-7"/>
+              </svg>
+            </div>
+            <h3>Research Trend Generator</h3>
+            <p>문헌 흐름과 근거의 빈틈을 정리해 약물역학 연구 질문과 가설을 구체화하는 탐색 도구입니다.</p>
+            <ul class="tag-list" aria-label="주요 기술">
+              <li>Evidence gap</li><li>Hypothesis</li><li>AI-assisted</li>
+            </ul>
+            <a class="card-link" href="https://github.com/why5682/topic_generator">코드 보기 <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section open-source" id="open-source" aria-labelledby="open-title">
+        <div class="section-heading compact">
+          <div>
+            <p class="section-kicker">Build in public</p>
+            <h2 id="open-title">작동 원리를 함께 남깁니다</h2>
+          </div>
+        </div>
+        <div class="principles">
+          <div><strong>01</strong><h3>출처를 추적합니다</h3><p>연구 데이터와 분류 기준이 어디에서 왔는지 기록합니다.</p></div>
+          <div><strong>02</strong><h3>재현 가능하게 만듭니다</h3><p>반복되는 판단은 코드와 검증 절차로 옮깁니다.</p></div>
+          <div><strong>03</strong><h3>민감정보를 분리합니다</h3><p>공개 코드와 운영 데이터의 경계를 명확히 유지합니다.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><span class="footer-mark">P</span> PEPV Research Tools</p>
+      <p>Built for careful research · <a href="https://github.com/why5682">GitHub</a></p>
+    </footer>
+  </body>
+</html>

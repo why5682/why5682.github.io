@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://why5682.me/sitemap.xml
