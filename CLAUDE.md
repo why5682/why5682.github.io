@@ -1,6 +1,6 @@
 ---
 active: true
-status: "GitHub Pages 허브 제작 완료 — Cloudflare 네임서버 활성화 대기"
+status: "운영 중 — GitHub Pages 배포 및 Cloudflare DNS·HTTPS 활성화 완료"
 updated: 2026-10-07
 ---
 
@@ -16,7 +16,8 @@ updated: 2026-10-07
 
 - Namecheap에서 `why5682.me` 등록 완료
 - GitHub Pages 사용자 사이트와 사용자 도메인 연결 완료
-- Cloudflare 네임서버 전파 대기 중
+- Cloudflare 네임서버(`clint`, `kimora`) 활성화 완료
+- Cloudflare 엣지의 `why5682.me`, `*.why5682.me` HTTPS 인증서 발급 확인
 - 약제·수가·KCD 검색 서비스는 향후 `drug.why5682.me`로 연결
 
 ## 정본
@@ -34,6 +35,5 @@ updated: 2026-10-07
 
 ## 다음 할 일
 
-- Cloudflare 활성화 후 `why5682.me` HTTPS 확인
 - Cloudflare Tunnel을 만들어 `drug.why5682.me` 연결
 - 실제 운영 서비스가 늘어나면 프로젝트 카드와 상태 문구 갱신
