@@ -18,7 +18,8 @@ updated: 2026-10-07
 - GitHub Pages 사용자 사이트와 사용자 도메인 연결 완료
 - Cloudflare 네임서버(`clint`, `kimora`) 활성화 완료
 - Cloudflare 엣지의 `why5682.me`, `*.why5682.me` HTTPS 인증서 발급 확인
-- 약제·수가·KCD 검색 서비스는 향후 `drug.why5682.me`로 연결
+- 약제·수가·KCD 검색 서비스는 Cloudflare Tunnel을 통해
+  `https://drug.why5682.me`에서 운영 중
 
 ## 정본
 
@@ -35,5 +36,4 @@ updated: 2026-10-07
 
 ## 다음 할 일
 
-- Cloudflare Tunnel을 만들어 `drug.why5682.me` 연결
 - 실제 운영 서비스가 늘어나면 프로젝트 카드와 상태 문구 갱신
